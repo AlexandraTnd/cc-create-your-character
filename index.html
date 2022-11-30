@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Create character</title>
+    <script src="https://kit.fontawesome.com/5d5c4dbb5c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="chooseDetailsContainer">
+        <h2>Choose your character details</h2>
+        <hr>
+        <form action="">
+            <section>
+                <label for="character_name">Character name:</label>
+                <input id="character_name" type="text">
+            </section>
+            <section>
+                <label for="gender">Gender: </label>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </section>
+            <section>
+                <label for="race">Race: </label>
+                <select name="race" id="race">
+                    <option value="human">Human</option>
+                    <option value="wolf">Wolf</option>
+                </select>
+            </section>
+            <section>
+                <label for="class">Class:</label>
+                <select name="class" id="class">
+                    <option value="fighter">Fighter</option>
+                    <option value="mage">Mage</option>
+                </select>
+            </section>
+            
+        </form>
+    </div>
+    <div id="showDetailsContainer">
+        <h2>Details selected</h2>
+        <hr>
+        <section>
+            Character name:
+            <span id="selected_name"></span>
+        </section>
+        <section>
+            Gender:
+            <span id="selected_gender"><i class="fa-solid fa-mars"></i></span>
+        </section>
+        <section>
+            Race:
+            <span id="selected_race"><i class="fa-solid fa-person"></i></span>
+        </section>
+        <section>
+            Class:
+            <span id="selected_class"><i class="fa-solid fa-user-ninja"></i></span>
+        </section>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
