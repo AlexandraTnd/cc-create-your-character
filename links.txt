@@ -1,0 +1,18 @@
+Input event: 
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event
+
+
+Introduction to DOM Manipulation: 
+https://www.youtube.com/watch?v=wiozYyXQEVk&ab_channel=DevEd
+
+
+DOM Manipulation: 
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+
+
+Javascript if/else: 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
+
+
+Sample for races and classes: 
+https://5e.tools/
